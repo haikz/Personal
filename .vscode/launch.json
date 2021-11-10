@@ -9,7 +9,7 @@
             "request": "launch",
             "name": "PowerShell Launch Current File",
             "script": "${file}",
-            "args": [],
+            "args": ["-srcFolder 'I:\\Ajutine\\sync1'","-taregtFolder 'I:\\Ajutine\\Sync2'", "-testOnly"],
             "cwd": "${file}"
         },
         {
